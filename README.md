@@ -1,2 +1,0 @@
-# Sunrise
-Ai therapy
