@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sunrise – AI</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h2>Talk with Sunrise</h2>
+<textarea id="userInput" placeholder="You can talk freely here..."></textarea>
+<button onclick="respond()">Talk</button>
+<p id="response"></p>
+
+<script src="js/safety.js"></script>
+<script src="js/ai.js"></script>
+<script>
+function respond() {
+  const input = document.getElementById("userInput").value;
+  document.getElementById("response").innerText = therapeuticResponse(input);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>sunrise – Access</title></head>
+<body>
+<h2>Continue</h2>
+<button onclick="guest()">Continue as Guest</button>
+<script>
+function guest() {
+  localStorage.setItem("sunrise_user","guest");
+  alert("Guest mode enabled");
+}
+</script>
+</body>
+</html>

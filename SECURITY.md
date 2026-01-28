@@ -1,0 +1,1 @@
+Static site with no external data handling.

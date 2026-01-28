@@ -1,0 +1,1 @@
+All pages are accessible from the home page.
